@@ -15,8 +15,7 @@ export class TodoList {
     }
 
     marcarCompletado( id ){
-
-        id.toString()
+        
     
         for (const todo of this.todos ){
 

@@ -21,8 +21,6 @@ export class TodoList {
     
         for (const todo of this.todos ){
 
-            console.log(id, todo.id);
-
             if( todo.id == id ){
                 todo.completado = !todo.completado;
                 break;
@@ -31,8 +29,11 @@ export class TodoList {
     
     }
 
-    eliminarCompletado(){
+    eliminarCompletados(){
         
+        this.todos = this.todos.filter(todo => !todo.completado);
+
+
     }
 
 }

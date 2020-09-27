@@ -325,7 +325,7 @@ html .clear-completed:active {
 	position: relative;
 	line-height: 20px;
 	text-decoration: none;
-	cursor: pointer;
+	cursor: pointer;	
 }
 
 .clear-completed:hover {
